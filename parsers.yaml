@@ -1,0 +1,13 @@
+parsers:
+  - reg: '^https://.+$'
+    yaml:
+      prepend-rules:
+        - "DOMAIN-SUFFIX,google.com,云隧道"
+        - "DOMAIN-SUFFIX,powershellgallery.com,云隧道"
+        - "DOMAIN-SUFFIX,openai.com,云隧道"
+        - "DOMAIN-SUFFIX,wireguard.com,云隧道"
+        - "DOMAIN-SUFFIX,gravatar.com,云隧道"
+        - "DOMAIN,cdn.jsdelivr.net,云隧道"
+        - "DOMAIN,www.bing.com,云隧道"
+        - "DOMAIN,www.amazon.co.jp,云隧道"
+
